@@ -14,7 +14,8 @@ from twython import Twython
 import json
 from textblob import TextBlob
 
-# Load credentials from json file
+# Load credentials from json file (You will need to create an app in https://developer.twitter.com/ to get access tokens to connect with Twitter API)
+
 with open("/Users/jarnail/.spyder-py3/Creds.json", "r") as file:  
     creds = json.load(file)
 
@@ -67,7 +68,7 @@ f.close()
 import matplotlib.pyplot as plt
 import numpy as np
 
-#edited the outpout txt file so that 
+
 x1, y1 = np.loadtxt('/Users/jarnail/.spyder-py3/tweetsAPI-Trudeau.txt', delimiter=',', unpack=True)
 plt.plot(x1,y1, label='Top 10 Tweets')
 
