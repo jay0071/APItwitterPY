@@ -9,3 +9,5 @@ Ran Sentiment analysis on Top 10 Tweets with #Trudeau and #Trump between dates (
 created graphs to visualize the difference.
 
 Project 2:
+
+Created charts in excel using IMBD data from internet.
