@@ -150,3 +150,10 @@ plt.show()
 plt.plot(x1,y1, label='#Trudeau')
 plt.plot(x2, y2, label='#trump')
 plt.legend()
+
+
+
+#References:
+##https://developer.twitter.com/en/use-cases/analyze.html
+#https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/
+#https://www.youtube.com/watch?v=o_OZdbCzHUA
