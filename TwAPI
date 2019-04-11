@@ -55,7 +55,7 @@ sys.stdout = f
 
 for a in range (0,10):
     m = str (a)
-    ##print(df['text'][a])   >> only need to output sentiment (That is the polarity and subjectivity value of the tweets)
+    ##print(df['text'][a])   >> no need to print the tweets. Only need to output sentiment (That is the polarity and subjectivity value of the tweets)
     analysis = TextBlob(df['text'][a])
     print (analysis.sentiment.polarity,',',analysis.sentiment.subjectivity) 
 
