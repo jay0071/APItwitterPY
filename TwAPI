@@ -5,9 +5,10 @@ Created on Wed Apr 10 22:41:45 2019
 
 @author: jarnail
 """
+##Prerequisites >> pip install Twython (in terminal)
+
 
 #TRUDEAU
-
 
 from twython import Twython  
 import json
