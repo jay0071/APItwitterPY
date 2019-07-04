@@ -147,8 +147,10 @@ plt.show()
 
 #Trudeau VS Trump
 
-plt.plot(x1,y1, label='#Trudeau')
-plt.plot(x2, y2, label='#trump')
+plt.plot(x1,y1, label='#Trudeau',color='green')
+plt.plot(x1, y1,'ko', markersize=7,color='green')
+plt.plot(x2, y2, 'ko', markersize=7,color='red')
+plt.plot(x2, y2, label='#trump',color='red')
 plt.legend()
 
 
